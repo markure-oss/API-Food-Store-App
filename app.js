@@ -48,14 +48,14 @@ mongoose
     });
 
 //Server
-// app.listen(3000, () => {
-//     console.log("server is running http://localhost:3000");
-// });
+app.listen(3000, () => {
+    console.log("server is running http://localhost:3000");
+});
 
 
 //production
 
-let server = app.listen(process.env.PORT || 3000, function () {
-    let port = server.address().port;
-    console.log('express is working on port' + port)
-})
+// let server = app.listen(process.env.PORT || 3000, function () {
+//     let port = server.address().port;
+//     console.log('express is working on port' + port)
+// })
