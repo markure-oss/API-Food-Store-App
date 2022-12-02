@@ -54,7 +54,8 @@ mongoose
 
 
 //production
-var server = app.listen(process.env.PORT || 3000, function () {
-    var port = server.address().port;
+
+let server = app.listen(process.env.PORT || 3000, function () {
+    let port = server.address().port;
     console.log('express is working on port' + port)
 })
