@@ -15,7 +15,7 @@ function authJwt() {
             { url: /\/api\/v1\/customers(.*)/, methods: ['GET', 'OPTIONS'] },
             { url: /\/api\/v1\/dishes(.*)/, methods: ['GET', 'OPTIONS'] },
             { url: /\/api\/v1\/categories(.*)/, methods: ['GET', 'OPTIONS'] },
-            { url: /\/api\/v1\/orders(.*)/, methods: ['GET', 'OPTIONS', 'POST'] },
+            { url: /\/api\/v1\/orders(.*)/, methods: ['GET', 'OPTIONS', 'POST', 'DELETE'] },
             { url: /heroku(.*)/, methods: ['GET', 'OPTIONS', 'POST'] },
             `${api}/customers/login`,
             `${api}/customers/signin`,
